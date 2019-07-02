@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- UI KIT CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
+
+    <!-- UI KIT CSS LOCAL -->
+    <link rel="stylesheet" href="{% static 'css/uikit.min.css' %}"/>
+
+    <body>
+
+        <!-- JQUERY JS | CDN -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        
+        <!-- JQUERY JS LOCAL -->
+        <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+
+        <!-- UI KIT JS CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
+
+        <!-- UI KIT JS LOCAL -->
+        <script src="{% static 'js/uikit.min.js' %}"></script>
+        <script src="{% static 'js/uikit-icons.min.js' %}"></script>
+    </body>
+</html>
